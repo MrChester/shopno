@@ -1,0 +1,14 @@
+@use 'pug/components/promotion/_promotion.scss';
+@use 'pug/components/socials/_socials.scss';
+@use 'pug/components/footer/_footer.scss';
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.main-title{
+  color: rgb(23, 63, 23);
+  font-size: 78px;
+}
