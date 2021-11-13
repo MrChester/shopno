@@ -1,0 +1,97 @@
+.promo-section{
+    // min-height: 806px;
+    background-color: #eff0f2;
+}
+
+.container{
+    max-width: 1139px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.promo-section__header{
+    padding-top: 64px;
+}
+
+.logo__img{
+    position: absolute;
+    left: -9999px;
+}
+
+.header__logo{
+    min-height: 46px;;
+    margin-bottom: 206px;
+    background-image: url('./images/main-logo.png');
+    background-repeat: no-repeat;
+}
+
+.header__title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #505050;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+}
+
+.header-title__text:first-child{
+    margin-bottom: 5px;
+}
+
+.header-title__text,
+.header-title__text--colored{
+    font-size: 45px;
+    line-height: 28px;
+    letter-spacing: 2.7px;
+}
+
+.header-title__text--colored{
+    width: 254px;
+    height: 54px;
+    background-color: #76f4ea;
+    opacity: 0.5;
+}
+
+.promo-section__button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.promo-section__button{
+    width: 232px;
+    height: 53px;
+    // padding: 20px 48px;
+    margin: 0 auto;
+    border: 2px solid #777879;
+    border-radius: 2px;
+    // background-color: #000000;
+    // opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #3c3c3d;
+}
+
+.promo-section__button:hover{
+    background-color: #777879;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.promo-section__image-wrapper{
+    margin-top: -22px;
+    margin-right: 51px;
+}
+
+.promo-section__image{
+    min-height: 156px;
+    background-color: #eff0f2;
+    background-image: url("./images/glass.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.promo-section__image img{
+    position: absolute;
+    left: -9999px;
+}
