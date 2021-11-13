@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 93px 0 151px 0;
+    background-color: #262b2e;
+    color: white;
+}
+
+
+.footer__title{
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.footer-socilas__list{
+    list-style: none;
+}
