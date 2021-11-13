@@ -1,4 +1,5 @@
 @use 'pug/components/promotion/_promotion.scss';
+@use 'pug/components/about/_about.scss';
 @use 'pug/components/socials/_socials.scss';
 @use 'pug/components/footer/_footer.scss';
 
@@ -8,7 +9,6 @@
     box-sizing: border-box;
 }
 
-.main-title{
-  color: rgb(23, 63, 23);
-  font-size: 78px;
+.uppercase{
+    text-transform: uppercase;
 }
