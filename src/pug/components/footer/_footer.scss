@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 93px 0 151px 0;
+    background-color: #262b2e;
+    color: white;
+}
+
+
+.footer__title{
+    margin-bottom: 19px;
+    opacity: 0.8;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    text-transform: uppercase;
+}
+
+.footer-socilas__list{
+    list-style: none;
+}
