@@ -66,7 +66,7 @@ module.exports = {
                 type: 'asset/resource',
             },
             {
-                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                test: /\.(woff|woff2|eot|ttf|otf|svg)$/i,
                 type: 'asset/resource',
             },
             {

@@ -40,9 +40,11 @@
 
 .header-title__text,
 .header-title__text--colored{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 45px;
     line-height: 28px;
     letter-spacing: 2.7px;
+    font-weight: 700;
 }
 
 .header-title__text--colored{
@@ -67,8 +69,10 @@
     // background-color: #000000;
     // opacity: 0.5;
     text-transform: uppercase;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.56;
+    font-weight: 400;
     color: #3c3c3d;
 }
 
