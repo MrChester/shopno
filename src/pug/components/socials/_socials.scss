@@ -19,28 +19,34 @@
     background-color: #6eeee4;
     opacity: 1;
     cursor: pointer;
+    .socials__icon{
+        fill: #000000;
+    }
+}
+
+.socials__icon--pinterest,
+.socials__icon--twitter,
+.socials__icon--dribble,
+.socials__icon--facebook{
+    fill: #faf4f4;
 }
 
 .socials__icon--pinterest{
     width: 17px;
     height: 22px;
-    fill: #faf4f4;
 }
 
 .socials__icon--twitter{
     width: 21px;
     height: 18px;
-    fill: #faf4f4;
 }
 
 .socials__icon--dribble{
     width: 21px;
     height: 21px;
-    fill: #faf4f4;
 }
 
 .socials__icon--facebook{
     width: 12px;
     height: 22px;
-    fill: #ffffff;
 }
