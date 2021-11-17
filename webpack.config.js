@@ -15,7 +15,7 @@ module.exports = {
     },
     output: {
         filename: 'js/[name].[contenthash].js',
-        assetModuleFilename: "assets/[hash][ext][query]",
+        assetModuleFilename: (mode === 'development') ? "assets/[name][ext][query]" : "assets/[hash][ext][query]",
         clean: true,
     },
     // devtool: 'source-map',
