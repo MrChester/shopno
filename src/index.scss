@@ -1,11 +1,11 @@
 @use 'scss/fonts/_fonts.scss';
-@use 'pug/components/promotion/_promotion.scss';
-@use 'pug/components/about/_about.scss';
-@use 'pug/components/works/_works.scss';
-@use 'pug/components/team/_team.scss';
-@use 'pug/components/contacts/_contacts.scss';
-@use 'pug/components/socials/_socials.scss';
-@use 'pug/components/footer/_footer.scss';
+@use 'scss/_promotion.scss';
+@use 'scss/_about.scss';
+@use 'scss/_works.scss';
+@use 'scss/_team.scss';
+@use 'scss/_contacts.scss';
+@use 'scss/_socials.scss';
+@use 'scss/_footer.scss';
 
 *,
 *::before,
