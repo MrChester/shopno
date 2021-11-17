@@ -13,6 +13,16 @@
     box-sizing: border-box;
 }
 
+button{
+    padding: 0;
+}
+
 .uppercase{
     text-transform: uppercase;
+}
+
+.container{
+    max-width: 1139px;
+    min-height: 100%;
+    margin: 0 auto;
 }
