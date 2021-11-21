@@ -1,33 +1,40 @@
-let item = document.querySelectorAll('.works-gallery__item');
-let galleryItem = document.querySelector('.works-gallery__item');
+let galleryItemList = document.querySelectorAll('.works-gallery__item');
 let popUp = document.getElementById('pop-up');
-let popUpFistChild = popUp.firstElementChild;
+let popUpImg = document.getElementById('pop-up__img');
 let screenPercent = 0.75;
 
-for (let i = 0; i < item.length; i++) {
-    const img = document.createElement('img');
-
-    item[i].addEventListener('click', function (event) {
+for (let i = 0; i < galleryItemList.length; i++)
+{
+    galleryItemList[i].addEventListener('click', function (event) {
         let screenHeight = document.documentElement.clientHeight;
         let screenWidth = document.documentElement.offsetWidth;
         const src = event.target.getAttribute('src');
 
-        img.setAttribute('src', src);
+        popUpImg.setAttribute('src', src);
         popUp.classList.remove('fade');
-        popUpFistChild.insertAdjacentElement('beforeEnd', img);
 
-        if (screenWidth <= 540) {
-            img.style.maxWidth = (screenPercent * screenWidth) + 'px';
-        } else if (screenWidth >= 540 && screenWidth < 768) {
-            img.style.maxHeight = (screenPercent * screenHeight) + 'px';
-        } else {
-            img.style.maxWidth = (screenPercent * screenHeight) + 'px';
+        if (screenWidth <= 540)
+        {
+            popUpImg.style.maxWidth = (screenPercent * screenWidth) + 'px';
         }
-
+        else if (screenWidth >= 540 && screenWidth < 768)
+        {
+            popUpImg.style.maxHeight = (screenPercent * screenHeight) + 'px';
+        }
+        else
+        {
+            popUpImg.style.maxWidth = (screenPercent * screenHeight) + 'px';
+        }
+        popUpImg.classList.remove('fade');
+        popUpImg.classList.add('show');
     });
 }
 
-popUp.addEventListener('click', () => {
-    popUp.classList.add('fade')
-    popUpFistChild.innerHTML = "";
+popUp.addEventListener('click', () =>
+{
+    popUp.classList.add('fade');
+    popUpImg.removeAttribute('style');
+    popUpImg.classList.remove('show');
+    popUpImg.classList.add('fade');
+    popUpImg.setAttribute('src', '#');
 });
