@@ -51,6 +51,19 @@
 }
 
 @font-face {
+	font-family: 'Merriweather-Italic';
+	src: url('fonts/merriweather/Merriweather-Italic.eot');
+	src: local('italic'),
+        url("fonts/merriweather/Merriweather-Italic.eot?#iefix") format("embedded-opentype"),
+        url('fonts/merriweather/Merriweather-Italic.otf') format('opentype'),
+        url('fonts/merriweather/Merriweather-Italic.woff2') format('woff2'),
+        url('fonts/merriweather/Merriweather-Italic.ttf') format('truetype'),
+        url('fonts/merriweather/Merriweather-Italic.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Merriweather';
 	src: url('fonts/merriweather/Merriweather-Bold.eot');
 	src: local('regular'),
