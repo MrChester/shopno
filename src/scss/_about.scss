@@ -1,6 +1,7 @@
 .section-about {
     min-height: 985px;
     padding-top: 129px;
+    padding-bottom: 166px;
     text-align: center;
     background-color: #f8fafa;
 
@@ -22,14 +23,15 @@
     &__content {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding-right: 38px;
         padding-left: 80px;
     
         .img-wrapper {
-            min-width: 392px;
-            min-height: 483px;
-            max-width: 392px;
-            max-height: 483px;
+            // min-width: 392px;
+            // min-height: 483px;
+            max-width: 38.356%;
+            // max-height: 483px;
     
             img {
                 width: 100%;
@@ -38,7 +40,7 @@
         }
     
         .content-info {
-            max-width: 474px;
+            max-width: 46.38%;
     
             &__text {
                 text-align: left;
