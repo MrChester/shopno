@@ -2,11 +2,11 @@
 @use 'scss/_promotion.scss';
 @use 'scss/_about.scss';
 @use 'scss/_works.scss';
-@use 'scss/_responsive';
 @use 'scss/_team.scss';
 @use 'scss/_contacts.scss';
 @use 'scss/_socials.scss';
 @use 'scss/_footer.scss';
+@use 'scss/_responsive';
 
 *,
 *::before,
@@ -15,17 +15,21 @@
     user-select: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+//   color: #666;
+}
+
 button{
     padding: 0;
 }
 
 .uppercase{
     text-transform: uppercase;
-}
-
-.container{
-    max-width: 1169px;
-    min-height: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
 }
