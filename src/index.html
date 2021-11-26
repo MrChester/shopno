@@ -69,32 +69,38 @@
             <div class="section-works__gallery works-gallery">
                 <figure class="works-gallery__item">
                     <a class="works-gallery__link">
-                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_1_1.webp" alt="works-gallery__img_1_1.webp" slide-index = '0'/>
+                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_1_1.webp"
+                            alt="works-gallery__img_1_1.webp" slide-index='0' />
                     </a>
                 </figure>
                 <figure class="works-gallery__item">
                     <a class="works-gallery__link">
-                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_1_2.webp" alt="works-gallery__img_1_2.webp" slide-index = '1'/>
+                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_1_2.webp"
+                            alt="works-gallery__img_1_2.webp" slide-index='1' />
                     </a>
                 </figure>
                 <figure class="works-gallery__item">
                     <a class="works-gallery__link">
-                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_1_3.webp" alt="works-gallery__img_1_3.webp" slide-index = '2'/>
+                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_1_3.webp"
+                            alt="works-gallery__img_1_3.webp" slide-index='2' />
                     </a>
                 </figure>
                 <figure class="works-gallery__item">
                     <a class="works-gallery__link">
-                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_2_1.webp" alt="works-gallery__img_2_1.webp" slide-index = '3'/>
+                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_2_1.webp"
+                            alt="works-gallery__img_2_1.webp" slide-index='3' />
                     </a>
                 </figure>
                 <figure class="works-gallery__item">
                     <a class="works-gallery__link">
-                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_2_2.webp" alt="works-gallery__img_2_2.webp" slide-index = '4'/>
+                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_2_2.webp"
+                            alt="works-gallery__img_2_2.webp" slide-index='4' />
                     </a>
                 </figure>
                 <figure class="works-gallery__item">
                     <a class="works-gallery__link">
-                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_2_3.webp" alt="works-gallery__img_2_3.webp" slide-index = '5'/>
+                        <img class="works-gallery__img" src="./images/works-gallery/works-gallery__img_2_3.webp"
+                            alt="works-gallery__img_2_3.webp" slide-index='5' />
                     </a>
                 </figure>
             </div>
@@ -217,38 +223,49 @@
 
     <section class="contacts-section">
         <div class="container">
-            <form class="contacts-section__form">
-                <fieldset class="contacts-section__form-fielset">
-                    <input class="contacts-section__form-input input-block" type="text" name="name" id="name"
-                        placeholder="Name*" autocomplete="off" required="required" />
-                    <input class="contacts-section__form-input input-block" type="text" name="subject" id="subject"
-                        placeholder="Subject*" autocomplete="off" required="required" />
-                    <input class="contacts-section__form-input input-block" type="email" name="email" id="email"
-                        placeholder="Email*" autocomplete="off" required="required" />
-                    <textarea class="contacts-section__form-textarea textarea-block" name="textarea" id="textarea"
-                        placeholder="Message*"></textarea>
-                </fieldset>
-                <button class="contacts-section__form-submit-btn btn" type="submit" name="submit" id="submit">Send
-                    message</button>
-            </form>
-            <div class="contacts-section__info">
-                <div class="contacts-section__info-text">
-                    <span class="info-text__item">Adress line 1</span>
-                    <br />
-                    <span class="info-text__item">Adress line 2</span>
-                    <br />
-                    <span class="info-text__item">Phone: +37529XXXXXXX</span>
-                    <br />
-                    <span class="info-text__item">Fax:
-                        +37529XXXXXXX</span>
-                    <br />
-                    <br />
-                    <span class="info-text__item">Web:
-                        https://mrchester.github.io/projects/shopno/</span>
-                    <br />
-                    <span class="info-text__item">E-mail: yauheni.ramankou@gmail.com</span>
+            <div class="contacts-section__form-wrapper">
+                <form class="contacts-section__form">
+                    <fieldset class="contacts-section__form-fielset">
+                        <input class="contacts-section__form-input input-block" type="text" name="name" id="name"
+                            placeholder="Name*" autocomplete="off" required="required" />
+                        <input class="contacts-section__form-input input-block" type="text" name="subject" id="subject"
+                            placeholder="Subject*" autocomplete="off" required="required" />
+                        <input class="contacts-section__form-input input-block" type="email" name="email" id="email"
+                            placeholder="Email*" autocomplete="off" required="required" />
+                        <textarea class="contacts-section__form-textarea textarea-block" name="textarea" id="textarea"
+                            placeholder="Message*"></textarea>
+                    </fieldset>
+                    <button class="contacts-section__form-submit-btn btn" type="submit" name="submit" id="submit">Send
+                        message</button>
+                </form>
+            </div>
+            <div class="contacts-section__info-wrapper">
+                <div class="contacts-section__info">
+                    <div class="contacts-section__info-text">
+                        <div class="info-text__item">Adress line 1</div>
+                        <div class="info-text__item">Adress line 2</div>
+                        <div class="info-text__item">
+                            <a href="tel:+37529XXXXXXX">
+                                Phone: +37529XXXXXXX
+                            </a>
+                        </div>
+                        <div class="info-text__item">
+                            <a href="tel:+37529XXXXXXX">
+                                Fax: +37529XXXXXXX
+                            </a>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="info-text__item">Web:
+                            https://mrchester.github.io/shopno/</div>
+                        <div class="info-text__item">
+                            <a href="mailto:yauheni.ramankou@gmail.com">
+                                E-mail: yauheni.ramankou@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contacts-section__info-map" id="YMapsID"></div>
                 </div>
-                <div class="contacts-section__info-map" id="YMapsID"></div>
             </div>
         </div>
         <div class="contacts-section__overlay"></div>
