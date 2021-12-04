@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopno corporative landing</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -309,6 +310,7 @@
     </div>
 
     <script src="https://api-maps.yandex.ru/2.1/?apikey=a0d5bfb4-593b-4bda-b278-16b3cdf7721a&lang=ru_RU"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

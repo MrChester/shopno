@@ -1,5 +1,16 @@
-dist
+# dist
+css
+js
+
+# npm assets
 node_modules
+package*.*
+package.json
+
+# project assets
 *.psd
 to-do.txt
 questions.txt
+
+# prepros
+prepros.*
