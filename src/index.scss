@@ -1,16 +1,34 @@
 @use 'scss/fonts/_fonts.scss';
-@use 'pug/components/promotion/_promotion.scss';
-@use 'pug/components/about/_about.scss';
-@use 'pug/components/works/_works.scss';
-@use 'pug/components/team/_team.scss';
-@use 'pug/components/contacts/_contacts.scss';
-@use 'pug/components/socials/_socials.scss';
-@use 'pug/components/footer/_footer.scss';
+@use '../node_modules/reset-css/sass/reset';
+@use 'scss/_promotion.scss';
+@use 'scss/_about.scss';
+@use 'scss/_works.scss';
+@use 'scss/_team.scss';
+@use 'scss/_contacts.scss';
+@use 'scss/_socials.scss';
+@use 'scss/_footer.scss';
+@use 'scss/_responsive';
 
 *,
 *::before,
 *::after{
     box-sizing: border-box;
+    user-select: none;
+}
+
+.wrapper{
+    overflow-x: hidden;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+//   color: #666;
+}
+
+button{
+    padding: 0;
 }
 
 .uppercase{

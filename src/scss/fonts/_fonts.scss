@@ -1,90 +1,103 @@
 @font-face {
 	font-family: 'Montserrat';
-	src: url('fonts/montserrat/Montserrat-Regular.eot');
+	src: url('../fonts/montserrat/Montserrat-Regular.eot');
 	src: local('regular'),
-        url("fonts/montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
-        url('fonts/montserrat/Montserrat-Regular.otf') format('opentype'),
-        url('fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
-        url('fonts/montserrat/Montserrat-Regular.ttf') format('truetype'),
-        url('fonts/montserrat/Montserrat-Regular.svg') format('svg');
+        url("../fonts/montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/montserrat/Montserrat-Regular.otf') format('opentype'),
+        url('../fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/montserrat/Montserrat-Regular.ttf') format('truetype'),
+        url('../fonts/montserrat/Montserrat-Regular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url('fonts/montserrat/Montserrat-Bold.eot');
+	src: url('../fonts/montserrat/Montserrat-Bold.eot');
 	src: local('regular'),
-        url("fonts/montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
-        url('fonts/montserrat/Montserrat-Bold.otf') format('opentype'),
-        url('fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
-        url('fonts/montserrat/Montserrat-Bold.ttf') format('truetype'),
-        url('fonts/montserrat/Montserrat-Bold.svg') format('svg');
+        url("../fonts/montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/montserrat/Montserrat-Bold.otf') format('opentype'),
+        url('../fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/montserrat/Montserrat-Bold.ttf') format('truetype'),
+        url('../fonts/montserrat/Montserrat-Bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Montserrat-Italic';
-	src: url('fonts/montserrat/Montserrat-Italic.eot');
+	src: url('../fonts/montserrat/Montserrat-Italic.eot');
 	src: local('regular'),
-        url("fonts/montserrat/Montserrat-Italic.eot?#iefix") format("embedded-opentype"),
-        url('fonts/montserrat/Montserrat-Italic.otf') format('opentype'),
-        url('fonts/montserrat/Montserrat-Italic.woff2') format('woff2'),
-        url('fonts/montserrat/Montserrat-Italic.ttf') format('truetype'),
-        url('fonts/montserrat/Montserrat-Italic.svg') format('svg');
+        url("../fonts/montserrat/Montserrat-Italic.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/montserrat/Montserrat-Italic.otf') format('opentype'),
+        url('../fonts/montserrat/Montserrat-Italic.woff2') format('woff2'),
+        url('../fonts/montserrat/Montserrat-Italic.ttf') format('truetype'),
+        url('../fonts/montserrat/Montserrat-Italic.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Merriweather';
-	src: url('fonts/merriweather/Merriweather-Regular.eot');
+	src: url('../fonts/merriweather/Merriweather-Regular.eot');
 	src: local('regular'),
-        url("fonts/merriweather/Merriweather-Regular.eot?#iefix") format("embedded-opentype"),
-        url('fonts/merriweather/Merriweather-Regular.otf') format('opentype'),
-        url('fonts/merriweather/Merriweather-Regular.woff2') format('woff2'),
-        url('fonts/merriweather/Merriweather-Regular.ttf') format('truetype'),
-        url('fonts/merriweather/Merriweather-Regular.svg') format('svg');
+        url("../fonts/merriweather/Merriweather-Regular.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/merriweather/Merriweather-Regular.otf') format('opentype'),
+        url('../fonts/merriweather/Merriweather-Regular.woff2') format('woff2'),
+        url('../fonts/merriweather/Merriweather-Regular.ttf') format('truetype'),
+        url('../fonts/merriweather/Merriweather-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Merriweather-Italic';
+	src: url('../fonts/merriweather/Merriweather-Italic.eot');
+	src: local('italic'),
+        url("../fonts/merriweather/Merriweather-Italic.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/merriweather/Merriweather-Italic.otf') format('opentype'),
+        url('../fonts/merriweather/Merriweather-Italic.woff2') format('woff2'),
+        url('../fonts/merriweather/Merriweather-Italic.ttf') format('truetype'),
+        url('../fonts/merriweather/Merriweather-Italic.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Merriweather';
-	src: url('fonts/merriweather/Merriweather-Bold.eot');
+	src: url('../fonts/merriweather/Merriweather-Bold.eot');
 	src: local('regular'),
-        url("fonts/merriweather/Merriweather-Bold.eot?#iefix") format("embedded-opentype"),
-        url('fonts/merriweather/Merriweather-Bold.otf') format('opentype'),
-        url('fonts/merriweather/Merriweather-Bold.woff2') format('woff2'),
-        url('fonts/merriweather/Merriweather-Bold.ttf') format('truetype'),
-        url('fonts/merriweather/Merriweather-Bold.svg') format('svg');
+        url("../fonts/merriweather/Merriweather-Bold.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/merriweather/Merriweather-Bold.otf') format('opentype'),
+        url('../fonts/merriweather/Merriweather-Bold.woff2') format('woff2'),
+        url('../fonts/merriweather/Merriweather-Bold.ttf') format('truetype'),
+        url('../fonts/merriweather/Merriweather-Bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('fonts/raleway/Raleway-Regular.eot');
+	src: url('../fonts/raleway/Raleway-Regular.eot');
 	src: local('regular'),
-        url("fonts/raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
-        url('fonts/raleway/Raleway-Regular.otf') format('opentype'),
-        url('fonts/raleway/Raleway-Regular.woff2') format('woff2'),
-        url('fonts/raleway/Raleway-Regular.ttf') format('truetype'),
-        url('fonts/raleway/Raleway-Regular.svg') format('svg');
+        url("../fonts/raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/raleway/Raleway-Regular.otf') format('opentype'),
+        url('../fonts/raleway/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Regular.ttf') format('truetype'),
+        url('../fonts/raleway/Raleway-Regular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('fonts/raleway/Raleway-Bold.eot');
+	src: url('../fonts/raleway/Raleway-Bold.eot');
 	src: local('regular'),
-        url("fonts/raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
-        url('fonts/raleway/Raleway-Bold.otf') format('opentype'),
-        url('fonts/raleway/Raleway-Bold.woff2') format('woff2'),
-        url('fonts/raleway/Raleway-Bold.ttf') format('truetype'),
-        url('fonts/raleway/Raleway-Bold.svg') format('svg');
+        url("../fonts/raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+        url('../fonts/raleway/Raleway-Bold.otf') format('opentype'),
+        url('../fonts/raleway/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/raleway/Raleway-Bold.ttf') format('truetype'),
+        url('../fonts/raleway/Raleway-Bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
